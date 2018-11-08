@@ -1,9 +1,9 @@
 import React from 'react'
 import './Main.css'
-import Card from '../components/Card'
+import Jumbotron from '../components/Jumbotron'
 import Title from '../components/Title'
 
-    let arrayCards = [
+    let arrayJumbotron = [
         {
             title:'Usando Animações com Lottie Api',
             description:'Aprensa a aplicar animações de carregamento e muito mais em suas aplicações, usando a bibliotéca da Airbnb.',
@@ -43,13 +43,13 @@ import Title from '../components/Title'
         }
     ]
 
-const cards = arrayCards.map((card) => 
-    <Card 
-        title={card.title} 
-        description={card.description} 
-        overview={card.overview}
-        urlbutton={card.urlbutton}
-        namebutton={card.namebutton} />
+const jumbotrons = arrayJumbotron.map((jumbotron) => 
+    <Jumbotron 
+        title={jumbotron.title} 
+        description={jumbotron.description} 
+        overview={jumbotron.overview}
+        urlbutton={jumbotron.urlbutton}
+        namebutton={jumbotron.namebutton} />
 );
 
 
@@ -60,6 +60,6 @@ export default props=>
             title='Android API'
             subtitle='Tutorias, exemplos, artigos e discurções sobre as principais apis, bibliotecas, components e conceitos
             de Mobile Design para todos que gostam de programação Android.'/>
-        {cards}
+        {jumbotrons}
     </div>
     

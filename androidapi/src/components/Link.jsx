@@ -4,5 +4,5 @@ import React from 'react'
 export default props =>
     <a  
     href={props.url} 
-    className={`nav nav-link ${props.classe}`}
-    ><i className={`fa fa-${props.icon} mr-2`}></i>{props.name}</a>
+    className={`nav nav-link ${props.classe} link`}
+    target={props.target}><i className={`fa fa-${props.icon} mr-2`}></i>{props.name}</a>

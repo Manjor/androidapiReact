@@ -1,5 +1,5 @@
 import React from 'react'
-import './Card.css'
+import './Jumbotron.css'
 
 export default props =>
     <div className='jumbotron'>
