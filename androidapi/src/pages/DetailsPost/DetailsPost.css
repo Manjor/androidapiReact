@@ -1,6 +1,14 @@
-#detailscontent{
+#content{
     width: 78%;
     float: right;
     margin: 3%;
     margin-top: 115px;
+}
+@media(max-width: 526px){
+    #content{
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+        margin-top: 115px;
+    }
 }
